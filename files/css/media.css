@@ -1,0 +1,293 @@
+/* CSS for All */
+
+@media (min-width: 992px) {
+    #home {
+        padding-left: 160px;
+        padding-right: 80px;
+    }
+    #aboutMe {
+        padding-left: 100px;
+        padding-right: 80px;
+    }
+    #skills {
+        padding-left: 100px;
+        padding-right: 80px;
+    }
+    #curriculum {
+        padding-left: 100px;
+        padding-right: 80px;
+    }
+    #portfolio {
+        padding-left: 100px;
+        padding-right: 80px;
+    }
+    #services {
+        padding-left: 100px;
+        padding-right: 80px;
+    }
+    #contact {
+        padding-left: 100px;
+        padding-right: 80px;
+    }
+}
+
+@media (max-width: 992px) {
+    #home {
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    #aboutMe {
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    #skills {
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    #curriculum {
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    #portfolio {
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    #services {
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    #contact {
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .mainTitle h4 {
+        font-size: 16px;
+    }
+    .mainTitle p {
+        font-size: 18px;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+
+/* Navbar */
+
+@media (min-width: 992px) {
+    .navMenu a {
+        width: 56px;
+    }
+    .navMenu a span {
+        display: none;
+        color: #fff;
+    }
+}
+
+@media (max-width: 992px) {
+    .navMenu a {
+        height: 40px;
+        font-size: 13px;
+        width: 150px;
+    }
+    .navMenu a:hover,
+    .navMenu .active,
+    .navMenu li:hover a {
+        width: 150px;
+        background: #1acc8d;
+    }
+    @media (max-width: 992px) {
+        #headerSection {
+            width: 200px;
+            background: #cbdbd063;
+            border-radius: 1px solid #e6e9ec;
+            left: -300px;
+        }
+    }
+}
+
+
+/* Home */
+
+@media (max-width: 640px) {
+    #home h1 {
+        font-size: 30px;
+    }
+    #home p {
+        font-size: 18px;
+    }
+    #home i {
+        font-size: 20px;
+    }
+}
+
+
+/* About Me */
+
+@media (max-width: 480px) {
+    #aboutMe .content h3 {
+        font-size: 14px;
+        padding-bottom: 8px;
+    }
+}
+
+@media (max-width: 992px) {
+    #aboutMe img {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 2px solid #0000008e;
+    }
+    #aboutMe .content ul {
+        padding-top: 8px;
+    }
+    #aboutMe .content ul li i {
+        font-size: 10px;
+    }
+    #aboutMe .content ul li strong {
+        font-size: 14px;
+    }
+    #aboutMe .content ul li {
+        font-size: 13px;
+    }
+    #aboutMe .content p {
+        text-align: left;
+        font-size: 13px;
+    }
+}
+
+
+/* Skills */
+
+@media (max-width: 1000px) {
+    #skills .info {
+        font-size: 13px;
+        line-height: 2;
+    }
+    #skills .skills-content .progress {
+        margin-bottom: 15px;
+    }
+}
+
+
+/* Curriculum */
+
+@media (max-width: 1000px) {
+    .curriculumTitle {
+        font-size: 18px;
+    }
+    .curriculumItems h4 {
+        font-size: 16px;
+    }
+    #curriculum .curriculumItems h5 {
+        font-size: 13px;
+    }
+    .curriculumItems p {
+        font-size: 13px;
+        line-height: 2;
+    }
+    .curriculumItems ul li {
+        font-size: 13px;
+        text-align: left;
+    }
+}
+
+
+/* Portfolio */
+
+@media (max-width: 480px) {
+    .portfolio #templs {
+        height: 120px;
+    }
+    .portfolio .portfolio-wrap .portfolio-info h4 {
+        font-size: 12px;
+    }
+    .portfolio .portfolio-wrap .portfolio-info p {
+        font-size: 11px;
+    }
+    .portfolio .portfolio-wrap .portfolio-info a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 992px) {
+    .portfolio .portfolio-wrap .portfolio-info h4 {
+        font-size: 14px;
+    }
+    .portfolio .portfolio-wrap .portfolio-info p {
+        font-size: 11px;
+    }
+    .portfolio .portfolio-wrap .portfolio-info a {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .portfolio #portfolio-flters li {
+        font-size: 12px;
+        padding: 5px 2px;
+    }
+}
+
+@media (min-width: 1220px) {
+    .portfolio #templs {
+        height: 200px;
+    }
+}
+
+
+/* Contact Form */
+
+@media (max-width: 1000px) {
+    #contact .mainTitle {
+        padding-bottom: 0;
+    }
+    #contact .information {
+        padding-top: 10px 5px 15px 15px;
+    }
+    #contact .information i {
+        font-size: 16px;
+        width: 36px;
+        height: 36px;
+    }
+    #contact .information h4 {
+        font-size: 16px;
+    }
+    #contact .information p {
+        font-size: 13px;
+    }
+    .contact .contact-form input,
+    .contact .contact-form select,
+    .contact .contact-form textarea {
+        font-size: 12px;
+    }
+    .contact .contact-form button {
+        padding: 4px 10px;
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Footer */
+
+@media (max-width: 992px) {
+    #footer .footerTop .footerText h3 {
+        font-size: 20px;
+    }
+    #footer .footerTop .footerText p,
+    #footer .footerTop .social a,
+    #footer .footerTop .links ul li {
+        font-size: 12px;
+    }
+    #footer .footerTop .social a {
+        font-size: 16px;
+        width: 28px;
+        height: 28px;
+        padding: 6px 0;
+        padding-right: 0;
+        margin-right: 10px;
+    }
+}
